@@ -13,6 +13,10 @@ namespace _1351300203.Controllers
             return View();
         }
 
+        public ActionResult Welcome()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
